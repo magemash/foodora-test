@@ -1,0 +1,10 @@
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         syntaxCheck="false"
+         bootstrap="vendor/autoload.php">
+    <testsuites>
+        <testsuite name="Test">
+            <directory suffix=".php">src/Scottpringle/Console/Test</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
